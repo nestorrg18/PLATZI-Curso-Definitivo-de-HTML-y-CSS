@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Esta es la forma mas comun de ligar tus estilos al HTML, se considera la mejor práctica -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- 2. Esta se usas en algunos casos concretos, pero se vuelve una mala práctica cuando tienes
+    muchas lineas de estilos, 300 por dar un ejemplo, esto puede generar que tu pagina tarde en cargar -->
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+    <title>Clase CSS</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- 3. Estilo embebido: aqui inyectas los estilos CSS directamente a la etiquete, pero como
+            te lo podras imaginar, tampoco es la mejor practica. Por lo regulara debes evitar hacerlo
+            de esta manera -->
+            <p style="color: red; font-size: 30px;">Soy un parrafo.</p>
+            
+            <p>
+                Soy otro parrafo, pero azul y más pequeño.
+            </p>
+            
+            <div>
+                <p>Hola, yo soy verde y en bold</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <!-- DIVERSAS FORMAS DE LLAMAR A LAS ETIQUETAS PARA ESTILIZARLAS -->
+            <p class="clase">CLASS</p>
+            <p id="identificacion">ID</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.block-element {
+    background-color: rgb(109, 182, 0);
+
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav {
+    background-color: peru;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 20px;
+}

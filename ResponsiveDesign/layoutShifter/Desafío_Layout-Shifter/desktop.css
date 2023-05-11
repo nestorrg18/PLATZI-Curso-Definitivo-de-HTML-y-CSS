@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    max-width: 768px;
+}
+.container {
+    width: 30%;
+}
+.infoFisica {
+    flex-direction: column;
+}
+.infoFisica img {
+    object-fit: cover;
+    width: 140px;
+    height: 400px;
+}
+.listaRamasFisica {
+    display: block;
+}
+footer {
+    width: 100%;
+}

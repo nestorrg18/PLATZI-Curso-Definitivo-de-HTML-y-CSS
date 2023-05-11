@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    /* height: 50vh; */
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: rgba(255, 67, 67, 0.63);
+}
+.box2 {
+    background-color: rgba(152, 255, 67, 0.63);
+}
+.box3 {
+    background-color: rgba(67, 86, 255, 0.63);
+}
+.box4 {
+    background-color: rgba(243, 227, 3, 0.932);
+}
+.box5 {
+    background-color: rgba(180, 67, 255, 0.63);
+}
+.box6 {
+    background-color: rgba(255, 195, 67, 0.63);
+}

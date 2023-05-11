@@ -1,0 +1,37 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: steelblue;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: chocolate;
+}
+/* PSEUDOCLASE: SE LLAMAN CON ":" 
+    
+    define el estilo de un ESTADO especial de un elemento    
+*/
+.main-nav__item a:hover {
+    color: #000000;
+}
+.main-nav__item a:active {
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* PSEUDOELEMENTO: SE LLAMAN CON "::" 
+
+    define el estilo de una PARTE especifica de un elemento 
+*/
+.main-nav__item a::after {
+    content: "**";
+}

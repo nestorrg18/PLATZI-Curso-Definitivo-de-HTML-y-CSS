@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 6.25%;
+}
+
+p {
+    font-size:30rem;
+    color: blueviolet;
+}
+
+main div {
+    font-size:30rem;
+}

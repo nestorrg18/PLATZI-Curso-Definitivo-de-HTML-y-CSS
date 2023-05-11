@@ -1,0 +1,19 @@
+/* SELECTOR POR ELEMENTO DE HTML: se escribe directamente la etiqueta html */
+
+div p {
+    color: green;
+    font-weight: bold;
+}
+
+/* CLASS: le ponemos un punto "." antes del nombre de la clase en question */
+
+.clase {
+    color: orange;
+    font-size: 20px;
+}
+
+/* ID: le ponemos un hashtag o numeral "#" antes del nombre de la clase en question */
+
+#identificacion {
+    color: purple;
+}

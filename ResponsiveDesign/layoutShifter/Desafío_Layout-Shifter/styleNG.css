@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-grey: #DDDDDD;
+    --dark-grey: #222831;
+    --navy-blue: #30475E;
+    --red: #F05454;
+
+    --sm: 20px;
+    --md: 22px;
+    --lg: 48px; 
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.nav-bar {
+    display: flex;
+    width: 400px;
+}
+ ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li {
+    margin: 20px;
+    font-size: var(--md);
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+aside {
+    background-color: var(--red);
+    width: 40vw;
+}
+
+aside div {
+    width: initial;
+    height: 144px;
+
+    margin: 10px;
+    padding: 5px;
+
+    font-size: var(--md);
+
+    border: 1px solid var(--dark-grey);
+
+    display: flex;
+    align-items: center;
+}
+section {
+    background-color: var(--light-grey);
+    display: flex;
+    padding: 30px;
+    gap: 30px
+}
+
+.imagenbebe {
+    width: 90px;
+    
+    padding: 0;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+}
+
+.imagen {
+    width: 300px;
+    height: 450px;
+}
+.titulo {
+    font-size: var(--lg);
+}
+.sinopsis {
+    font-size: var(--sm);
+}
+
+figure {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Neon_Genesis_Evangelion_The_End_of_Evangelion_logo.png/640px-Neon_Genesis_Evangelion_The_End_of_Evangelion_logo.png);
+    margin: 5px 20px 0 20px;
+    width: 200px;
+    height: 62px;
+    background-size: 100%;
+}
+
+.personajes {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 20px;
+}
+
+.cartaPersonaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: var(--md);
+}
+.cartaPersonaje img {
+    width: 180px;
+    margin: 10px;
+    border: 2px solid var(--navy-blue);
+}
+.titulo-personajes {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+} */

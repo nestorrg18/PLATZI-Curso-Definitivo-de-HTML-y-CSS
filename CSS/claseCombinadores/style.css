@@ -1,0 +1,27 @@
+h1{
+    font-family: monospace;
+    color: darkslateblue;
+}
+
+/* 1.Adjacent Siblings */
+
+h2 + p {
+    color: red;
+}
+
+/* 2. General Sibling */
+div h2 ~ p {
+    color: royalblue;
+}
+
+/* 3. Hijo  */
+
+section > p {
+    color: green;
+}
+
+/* 4. Descendiente */
+
+nav p {
+    color: orange;
+}

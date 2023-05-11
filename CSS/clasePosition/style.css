@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+}
+
+.padre{
+    width: 600px;
+    height: 400px;
+    background-color:lightcyan;
+    border: 1px lightslategray dotted;
+    text-align-last: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijos {
+    border-radius: 20px;
+}
+
+#arriba {
+    width: 200PX;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: 28px;
+}
+#abajo {
+    width: 400px;
+    height: 200px;
+    background-color: mediumpurple;
+
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

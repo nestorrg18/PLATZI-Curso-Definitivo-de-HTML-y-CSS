@@ -1,0 +1,32 @@
+nav {
+    font-size: var(--md);
+}
+
+.container {
+    font-size: var(--md);
+}
+.container > h3 {
+    margin-top: 16px;
+}
+.infoFisica {
+    flex-direction: row;
+}
+.infoFisica img {
+    width: 200px;
+}
+.listaRamasFisica {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    margin: 10px;
+}
+.listaRamasFisica li {
+    margin: 5px;
+}
+.fisicaRama {
+    align-items: flex-start;
+}
+.fisicaRama img {
+    width: 150px;
+    height: 150px; 
+}
